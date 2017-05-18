@@ -1,1 +1,500 @@
-webpackJsonp([1],{"/fcW":function(t,e){function _(t){throw new Error("Cannot find module '"+t+"'.")}_.keys=function(){return[]},_.resolve=_,t.exports=_,_.id="/fcW"},0:function(t,e,_){t.exports=_("x35b")},"1A80":function(t,e,_){"use strict";function n(t){return o._24(0,[(t()(),o._25(8388608,null,null,1,"router-outlet",[],null,null,null,null,null)),o._26(73728,null,0,s.y,[s.l,o.T,o.U,[8,null]],null,null),(t()(),o._27(null,["\n"]))],null,null)}function r(t){return o._24(0,[(t()(),o._25(0,null,null,1,"app-root",[],null,null,null,n,h)),o._26(24576,null,0,l.a,[u.a],null,null)],null,null)}var i=_("l0Vc"),o=_("3j3K"),s=_("5oXY"),l=_("YWx4"),u=_("vK5M");_.d(e,"a",function(){return c});var a=[i.a],h=o._23({encapsulation:0,styles:a,data:{}}),c=o._28("app-root",l.a,r,{},{},[])},Ag9l:function(t,e,_){"use strict";_.d(e,"a",function(){return n});var n=['@charset "UTF-8";\n.title[_ngcontent-%COMP%] {\n  color: black;\n  margin: 0;\n  padding: 50px 20px;\n  background: url(background.a24cf7dbc73564748611.jpg) no-repeat center fixed;\n  \n  background-size: cover;\n   }']},Cd9f:function(t,e,_){"use strict";var n=_("ZrT/");_.d(e,"a",function(){return r});var r=(n.a,function(){function t(){}return t}())},Iksp:function(t,e,_){"use strict";var n=_("ZSR1"),r=(_.n(n),_("I8yv"));_.n(r);_.d(e,"a",function(){return i});var i=function(){function t(){}return t}()},YWx4:function(t,e,_){"use strict";var n=_("vK5M");_.d(e,"a",function(){return r});var r=function(){function t(t){this.electronService=t,t.isElectron()?(console.log("Mode electron"),console.log("c",t.ipcRenderer),console.log("c",t.childProcess)):console.log("Mode web")}return t.ctorParameters=function(){return[{type:n.a}]},t}()},"ZrT/":function(t,e,_){"use strict";_.d(e,"a",function(){return n});var n=function(){function t(){this.title="App works !"}return t.prototype.ngOnInit=function(){},t.ctorParameters=function(){return[]},t}()},kke6:function(t,e,_){"use strict";var n=_("3j3K"),r=_("Iksp"),i=_("2Je8"),o=_("5oXY"),s=_("Qbdm"),l=_("NVOs"),u=_("Fzro"),a=_("Cd9f"),h=_("vK5M"),c=_("sP+a"),p=_("1A80"),f=_("ZrT/");_.d(e,"a",function(){return y});var d=this&&this.__extends||function(){var t=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var _ in e)e.hasOwnProperty(_)&&(t[_]=e[_])};return function(e,_){function n(){this.constructor=e}t(e,_),e.prototype=null===_?Object.create(_):(n.prototype=_.prototype,new n)}}(),g=function(t){function e(e){return t.call(this,e,[c.a,p.a],[p.a])||this}return d(e,t),Object.defineProperty(e.prototype,"_LOCALE_ID_26",{get:function(){return null==this.__LOCALE_ID_26&&(this.__LOCALE_ID_26=n.b(this.parent.get(n.c,null))),this.__LOCALE_ID_26},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_NgLocalization_27",{get:function(){return null==this.__NgLocalization_27&&(this.__NgLocalization_27=new i.a(this._LOCALE_ID_26)),this.__NgLocalization_27},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_APP_ID_28",{get:function(){return null==this.__APP_ID_28&&(this.__APP_ID_28=n.d()),this.__APP_ID_28},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_IterableDiffers_29",{get:function(){return null==this.__IterableDiffers_29&&(this.__IterableDiffers_29=n.e()),this.__IterableDiffers_29},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_KeyValueDiffers_30",{get:function(){return null==this.__KeyValueDiffers_30&&(this.__KeyValueDiffers_30=n.f()),this.__KeyValueDiffers_30},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_DomSanitizer_31",{get:function(){return null==this.__DomSanitizer_31&&(this.__DomSanitizer_31=new s.b(this.parent.get(s.c))),this.__DomSanitizer_31},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Sanitizer_32",{get:function(){return null==this.__Sanitizer_32&&(this.__Sanitizer_32=this._DomSanitizer_31),this.__Sanitizer_32},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_HAMMER_GESTURE_CONFIG_33",{get:function(){return null==this.__HAMMER_GESTURE_CONFIG_33&&(this.__HAMMER_GESTURE_CONFIG_33=new s.d),this.__HAMMER_GESTURE_CONFIG_33},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_EVENT_MANAGER_PLUGINS_34",{get:function(){return null==this.__EVENT_MANAGER_PLUGINS_34&&(this.__EVENT_MANAGER_PLUGINS_34=[new s.e(this.parent.get(s.c)),new s.f(this.parent.get(s.c)),new s.g(this.parent.get(s.c),this._HAMMER_GESTURE_CONFIG_33)]),this.__EVENT_MANAGER_PLUGINS_34},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_EventManager_35",{get:function(){return null==this.__EventManager_35&&(this.__EventManager_35=new s.h(this._EVENT_MANAGER_PLUGINS_34,this.parent.get(n.g))),this.__EventManager_35},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵDomSharedStylesHost_36",{get:function(){return null==this.__ɵDomSharedStylesHost_36&&(this.__ɵDomSharedStylesHost_36=new s.i(this.parent.get(s.c))),this.__ɵDomSharedStylesHost_36},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵDomRendererFactory2_37",{get:function(){return null==this.__ɵDomRendererFactory2_37&&(this.__ɵDomRendererFactory2_37=new s.j(this._EventManager_35,this._ɵDomSharedStylesHost_36)),this.__ɵDomRendererFactory2_37},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_RendererFactory2_38",{get:function(){return null==this.__RendererFactory2_38&&(this.__RendererFactory2_38=this._ɵDomRendererFactory2_37),this.__RendererFactory2_38},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵSharedStylesHost_39",{get:function(){return null==this.__ɵSharedStylesHost_39&&(this.__ɵSharedStylesHost_39=this._ɵDomSharedStylesHost_36),this.__ɵSharedStylesHost_39},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Testability_40",{get:function(){return null==this.__Testability_40&&(this.__Testability_40=new n.h(this.parent.get(n.g))),this.__Testability_40},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Meta_41",{get:function(){return null==this.__Meta_41&&(this.__Meta_41=new s.k(this.parent.get(s.c))),this.__Meta_41},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Title_42",{get:function(){return null==this.__Title_42&&(this.__Title_42=new s.l(this.parent.get(s.c))),this.__Title_42},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ɵi_43",{get:function(){return null==this.__ɵi_43&&(this.__ɵi_43=new l.a),this.__ɵi_43},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_BrowserXhr_44",{get:function(){return null==this.__BrowserXhr_44&&(this.__BrowserXhr_44=new u.a),this.__BrowserXhr_44},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ResponseOptions_45",{get:function(){return null==this.__ResponseOptions_45&&(this.__ResponseOptions_45=new u.b),this.__ResponseOptions_45},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_XSRFStrategy_46",{get:function(){return null==this.__XSRFStrategy_46&&(this.__XSRFStrategy_46=u.c()),this.__XSRFStrategy_46},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_XHRBackend_47",{get:function(){return null==this.__XHRBackend_47&&(this.__XHRBackend_47=new u.d(this._BrowserXhr_44,this._ResponseOptions_45,this._XSRFStrategy_46)),this.__XHRBackend_47},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_RequestOptions_48",{get:function(){return null==this.__RequestOptions_48&&(this.__RequestOptions_48=new u.e),this.__RequestOptions_48},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_Http_49",{get:function(){return null==this.__Http_49&&(this.__Http_49=u.f(this._XHRBackend_47,this._RequestOptions_48)),this.__Http_49},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ActivatedRoute_50",{get:function(){return null==this.__ActivatedRoute_50&&(this.__ActivatedRoute_50=o.a(this._Router_22)),this.__ActivatedRoute_50},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_NoPreloading_51",{get:function(){return null==this.__NoPreloading_51&&(this.__NoPreloading_51=new o.b),this.__NoPreloading_51},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_PreloadingStrategy_52",{get:function(){return null==this.__PreloadingStrategy_52&&(this.__PreloadingStrategy_52=this._NoPreloading_51),this.__PreloadingStrategy_52},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_RouterPreloader_53",{get:function(){return null==this.__RouterPreloader_53&&(this.__RouterPreloader_53=new o.c(this._Router_22,this._NgModuleFactoryLoader_20,this._Compiler_19,this,this._PreloadingStrategy_52)),this.__RouterPreloader_53},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_PreloadAllModules_54",{get:function(){return null==this.__PreloadAllModules_54&&(this.__PreloadAllModules_54=new o.d),this.__PreloadAllModules_54},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ROUTER_INITIALIZER_55",{get:function(){return null==this.__ROUTER_INITIALIZER_55&&(this.__ROUTER_INITIALIZER_55=o.e(this._ɵg_3)),this.__ROUTER_INITIALIZER_55},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_APP_BOOTSTRAP_LISTENER_56",{get:function(){return null==this.__APP_BOOTSTRAP_LISTENER_56&&(this.__APP_BOOTSTRAP_LISTENER_56=[this._ROUTER_INITIALIZER_55]),this.__APP_BOOTSTRAP_LISTENER_56},enumerable:!0,configurable:!0}),Object.defineProperty(e.prototype,"_ElectronService_57",{get:function(){return null==this.__ElectronService_57&&(this.__ElectronService_57=new h.a),this.__ElectronService_57},enumerable:!0,configurable:!0}),e.prototype.createInternal=function(){return this._CommonModule_0=new i.b,this._ErrorHandler_1=s.m(),this._NgProbeToken_2=[o.f()],this._ɵg_3=new o.g(this),this._APP_INITIALIZER_4=[n.i,s.n(this.parent.get(s.o,null),this._NgProbeToken_2),o.h(this._ɵg_3)],this._ApplicationInitStatus_5=new n.j(this._APP_INITIALIZER_4),this._ɵf_6=new n.k(this.parent.get(n.g),this.parent.get(n.l),this,this._ErrorHandler_1,this.componentFactoryResolver,this._ApplicationInitStatus_5),this._ApplicationRef_7=this._ɵf_6,this._ApplicationModule_8=new n.m(this._ApplicationRef_7),this._BrowserModule_9=new s.p(this.parent.get(s.p,null)),this._ɵba_10=new l.b,this._FormsModule_11=new l.c,this._HttpModule_12=new u.g,this._ɵa_13=o.i(this.parent.get(o.j,null)),this._UrlSerializer_14=new o.k,this._RouterOutletMap_15=new o.l,this._ROUTER_CONFIGURATION_16={useHash:!0},this._LocationStrategy_17=o.m(this.parent.get(i.c),this.parent.get(i.d,null),this._ROUTER_CONFIGURATION_16),this._Location_18=new i.e(this._LocationStrategy_17),this._Compiler_19=new n.n,this._NgModuleFactoryLoader_20=new n.o(this._Compiler_19,this.parent.get(n.p,null)),this._ROUTES_21=[[{path:"",component:f.a}]],this._Router_22=o.n(this._ApplicationRef_7,this._UrlSerializer_14,this._RouterOutletMap_15,this._Location_18,this,this._NgModuleFactoryLoader_20,this._Compiler_19,this._ROUTES_21,this._ROUTER_CONFIGURATION_16,this.parent.get(o.o,null),this.parent.get(o.p,null)),this._RouterModule_23=new o.q(this._ɵa_13,this._Router_22),this._AppRoutingModule_24=new a.a,this._AppModule_25=new r.a,this._AppModule_25},e.prototype.getInternal=function(t,e){return t===i.b?this._CommonModule_0:t===n.q?this._ErrorHandler_1:t===n.r?this._NgProbeToken_2:t===o.g?this._ɵg_3:t===n.s?this._APP_INITIALIZER_4:t===n.j?this._ApplicationInitStatus_5:t===n.k?this._ɵf_6:t===n.t?this._ApplicationRef_7:t===n.m?this._ApplicationModule_8:t===s.p?this._BrowserModule_9:t===l.b?this._ɵba_10:t===l.c?this._FormsModule_11:t===u.g?this._HttpModule_12:t===o.r?this._ɵa_13:t===o.s?this._UrlSerializer_14:t===o.l?this._RouterOutletMap_15:t===o.t?this._ROUTER_CONFIGURATION_16:t===i.f?this._LocationStrategy_17:t===i.e?this._Location_18:t===n.n?this._Compiler_19:t===n.u?this._NgModuleFactoryLoader_20:t===o.u?this._ROUTES_21:t===o.j?this._Router_22:t===o.q?this._RouterModule_23:t===a.a?this._AppRoutingModule_24:t===r.a?this._AppModule_25:t===n.c?this._LOCALE_ID_26:t===i.g?this._NgLocalization_27:t===n.v?this._APP_ID_28:t===n.w?this._IterableDiffers_29:t===n.x?this._KeyValueDiffers_30:t===s.q?this._DomSanitizer_31:t===n.y?this._Sanitizer_32:t===s.r?this._HAMMER_GESTURE_CONFIG_33:t===s.s?this._EVENT_MANAGER_PLUGINS_34:t===s.h?this._EventManager_35:t===s.i?this._ɵDomSharedStylesHost_36:t===s.j?this._ɵDomRendererFactory2_37:t===n.z?this._RendererFactory2_38:t===s.t?this._ɵSharedStylesHost_39:t===n.h?this._Testability_40:t===s.k?this._Meta_41:t===s.l?this._Title_42:t===l.a?this._ɵi_43:t===u.a?this._BrowserXhr_44:t===u.h?this._ResponseOptions_45:t===u.i?this._XSRFStrategy_46:t===u.d?this._XHRBackend_47:t===u.j?this._RequestOptions_48:t===u.k?this._Http_49:t===o.v?this._ActivatedRoute_50:t===o.b?this._NoPreloading_51:t===o.w?this._PreloadingStrategy_52:t===o.c?this._RouterPreloader_53:t===o.d?this._PreloadAllModules_54:t===o.x?this._ROUTER_INITIALIZER_55:t===n.A?this._APP_BOOTSTRAP_LISTENER_56:t===h.a?this._ElectronService_57:e},e.prototype.destroyInternal=function(){this._ɵf_6.ngOnDestroy(),this.__ɵDomSharedStylesHost_36&&this._ɵDomSharedStylesHost_36.ngOnDestroy(),this.__RouterPreloader_53&&this._RouterPreloader_53.ngOnDestroy()},e}(n.B),y=new n.C(g,r.a)},l0Vc:function(t,e,_){"use strict";_.d(e,"a",function(){return n});var n=[""]},oGlw:function(t,e,_){"use strict";_.d(e,"a",function(){return n});var n={production:!0}},"sP+a":function(t,e,_){"use strict";function n(t){return o._24(0,[(t()(),o._25(0,null,null,1,"h1",[["class","title"]],null,null,null,null,null)),(t()(),o._27(null,["\n  ","\n"])),(t()(),o._27(null,["\n"]))],null,function(t,e){t(e,1,0,e.component.title)})}function r(t){return o._24(0,[(t()(),o._25(0,null,null,1,"app-home",[],null,null,null,n,u)),o._26(57344,null,0,s.a,[],null,null)],function(t,e){t(e,1,0)},null)}var i=_("Ag9l"),o=_("3j3K"),s=_("ZrT/");_.d(e,"a",function(){return a});var l=[i.a],u=o._23({encapsulation:0,styles:l,data:{}}),a=o._28("app-home",s.a,r,{},{},[])},vK5M:function(t,e,_){"use strict";_.d(e,"a",function(){return n});var n=function(){function t(){this.isElectron=function(){return window&&window.process&&window.process.type},this.isElectron()&&(this.ipcRenderer=window.require("electron").ipcRenderer,this.childProcess=window.require("child_process"))}return t.ctorParameters=function(){return[]},t}()},x35b:function(t,e,_){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var n=_("3j3K"),r=_("oGlw"),i=_("Qbdm"),o=_("kke6");r.a.production&&_.i(n.a)(),_.i(i.a)().bootstrapModuleFactory(o.a)}},[0]);
+webpackJsonp([1],{
+
+/***/ 111:
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 111;
+
+/***/ }),
+
+/***/ 112:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_environments__ = __webpack_require__(123);
+
+
+
+
+if (__WEBPACK_IMPORTED_MODULE_3_environments__["a" /* environment */].production) {
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
+}
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 120:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_home_home_component__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_temp_temp_component__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(119);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var routes = [
+    {
+        path: '',
+        component: __WEBPACK_IMPORTED_MODULE_0__components_home_home_component__["a" /* HomeComponent */]
+    },
+    {
+        path: 'temp',
+        component: __WEBPACK_IMPORTED_MODULE_1__components_temp_temp_component__["a" /* TempComponent */]
+    }
+];
+var AppRoutingModule = (function () {
+    function AppRoutingModule() {
+    }
+    return AppRoutingModule;
+}());
+AppRoutingModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["b" /* NgModule */])({
+        imports: [__WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* RouterModule */].forRoot(routes, { useHash: true })],
+        exports: [__WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* RouterModule */]]
+    })
+], AppRoutingModule);
+
+//# sourceMappingURL=app-routing.module.js.map
+
+/***/ }),
+
+/***/ 121:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_electron_service__ = __webpack_require__(75);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var AppComponent = (function () {
+    function AppComponent(electronService) {
+        this.electronService = electronService;
+        if (electronService.isElectron()) {
+            console.log('Mode electron');
+            // Check if electron is correctly injected (see externals in webpack.config.js)
+            console.log('c', electronService.ipcRenderer);
+            // Check if nodeJs childProcess is correctly injected (see externals in webpack.config.js)
+            console.log('c', electronService.childProcess);
+        }
+        else {
+            console.log('Mode web');
+        }
+    }
+    return AppComponent;
+}());
+AppComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
+        selector: 'app-root',
+        template: __webpack_require__(191),
+        styles: [__webpack_require__(189)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__providers_electron_service__["a" /* ElectronService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__providers_electron_service__["a" /* ElectronService */]) === "function" && _a || Object])
+], AppComponent);
+
+var _a;
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 122:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_zone_js__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_zone_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_zone_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_reflect_metadata__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_reflect_metadata___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_reflect_metadata__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_home_home_component__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_routing_module__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_electron_service__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angular2_modal__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_angular2_modal_plugins_bootstrap__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_home_custom_modal_sample__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_temp_temp_component__ = __webpack_require__(74);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__angular_core__["b" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_7__components_home_home_component__["a" /* HomeComponent */],
+            __WEBPACK_IMPORTED_MODULE_12__components_home_custom_modal_sample__["a" /* CustomModal */],
+            __WEBPACK_IMPORTED_MODULE_13__components_temp_temp_component__["a" /* TempComponent */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_10_angular2_modal__["a" /* ModalModule */].forRoot(),
+            __WEBPACK_IMPORTED_MODULE_11_angular2_modal_plugins_bootstrap__["a" /* BootstrapModalModule */],
+            __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormsModule */],
+            __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_8__app_routing_module__["a" /* AppRoutingModule */]
+        ],
+        providers: [__WEBPACK_IMPORTED_MODULE_9__providers_electron_service__["a" /* ElectronService */]],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */]],
+        entryComponents: [__WEBPACK_IMPORTED_MODULE_12__components_home_custom_modal_sample__["a" /* CustomModal */]]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 123:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// This file contains development variables. (When you work in DEV MODE)
+// This file is use by webpack. Please don't rename it and don't move it to another directory.
+// This file contains development variables. (When you work in DEV MODE)
+var environment = {
+    production: false
+};
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 189:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(35)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 190:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(35)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 191:
+/***/ (function(module, exports) {
+
+module.exports = "<router-outlet></router-outlet>\n";
+
+/***/ }),
+
+/***/ 192:
+/***/ (function(module, exports) {
+
+module.exports = "<h1>ok</h1>";
+
+/***/ }),
+
+/***/ 226:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(112);
+
+
+/***/ }),
+
+/***/ 72:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular2_modal__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__ = __webpack_require__(29);
+/* unused harmony export CustomModalContext */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomModal; });
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var CustomModalContext = (function (_super) {
+    __extends(CustomModalContext, _super);
+    function CustomModalContext() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return CustomModalContext;
+}(__WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["c" /* BSModalContext */]));
+
+/**
+ * A Sample of how simple it is to create a new window, with its own injects.
+ */
+var CustomModal = (function () {
+    function CustomModal(dialog) {
+        this.dialog = dialog;
+        this.context = dialog.context;
+        this.wrongAnswer = true;
+        dialog.setCloseGuard(this);
+    }
+    CustomModal.prototype.onKeyUp = function (value) {
+        this.wrongAnswer = value != 5;
+        this.dialog.close();
+    };
+    CustomModal.prototype.beforeDismiss = function () {
+        return true;
+    };
+    CustomModal.prototype.beforeClose = function () {
+        return this.wrongAnswer;
+    };
+    return CustomModal;
+}());
+CustomModal = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
+        selector: 'modal-content',
+        styles: ["\n        .custom-modal-container {\n            padding: 15px;\n        }\n\n        .custom-modal-header {\n            background-color: #219161;\n            color: #fff;\n            -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);\n            -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);\n            box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);\n            margin-top: -15px;\n            margin-bottom: 40px;\n        }\n    "],
+        //TODO: [ngClass] here on purpose, no real use, just to show how to workaround ng2 issue #4330.
+        // Remove when solved.
+        /* tslint:disable */ template: "\n        <div class=\"container-fluid custom-modal-container\">\n            <div class=\"row custom-modal-header\">\n                <div class=\"col-sm-12\">\n                    <h1>A Custom modal design</h1>\n                </div>\n            </div>\n            <div class=\"row\" >\n                <div class=\"col-xs-12\">\n                    <div class=\"jumbotron\">\n                        <h1>Do the math to quit:</h1>\n                        <p class=\"lead\">I received an injection of the number <strong>{{context.num1}}</strong> and the number <strong>{{context.num2}}</strong></p>\n                        <span>What is the sum?</span>\n                         <input class=\"form-control\" type=\"text\" #answer (keyup)=\"onKeyUp(answer.value)\" autofocus>\n                    </div>\n                </div>\n            </div>\n        </div>"
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_angular2_modal__["d" /* DialogRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_angular2_modal__["d" /* DialogRef */]) === "function" && _a || Object])
+], CustomModal);
+
+var _a;
+//# sourceMappingURL=custom-modal-sample.js.map
+
+/***/ }),
+
+/***/ 73:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular2_modal__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__custom_modal_sample__ = __webpack_require__(72);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var HomeComponent = (function () {
+    function HomeComponent(modal) {
+        this.modal = modal;
+        this.title = "App works !";
+    }
+    HomeComponent.prototype.ngOnInit = function () {
+    };
+    HomeComponent.prototype.onClick = function () {
+        this.modal.alert()
+            .size('lg')
+            .showClose(false)
+            .title('A simple Alert style modal window')
+            .body("\n            <h4>Alert is a classic (title/body/footer) 1 button modal window that \n            does not block.</h4>\n            <b>Configuration:</b>\n            <ul>\n                <li>Non blocking (click anywhere outside to dismiss)</li>\n                <li>Size large</li>\n                <li>Dismissed with default keyboard key (ESC)</li>\n                <li>Close wth button click</li>\n                <li>HTML content</li>\n            </ul>")
+            .open();
+    };
+    HomeComponent.prototype.openCustom = function () {
+        return this.modal.open(__WEBPACK_IMPORTED_MODULE_3__custom_modal_sample__["a" /* CustomModal */], __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_angular2_modal__["n" /* overlayConfigFactory */])({ num1: 2, num2: 3 }, __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["c" /* BSModalContext */]));
+    };
+    return HomeComponent;
+}());
+HomeComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
+        selector: 'app-home',
+        // templateUrl: './home.component.html',
+        template: "\n  <span defaultOverlayTarget></span>\n  <h1>angular2-modal</h1>\n  <h2>Basic Modal sample</h2>\n  <button (click)=\"onClick()\">Alert</button>\n    <br>\n  <h2>Custom Modal example:</h2>\n  <button (click)=\"openCustom()\">Custom Modal</button>\n  <p>\n  <b>IMPORTANT:</b>\n  Since 'AdditionCalculateWindow' is never explicitly used (in a template)\n  we must tell angular about it by adding it to the <strong>entryComponents</strong> property in the module meta.\n  </p>\n  \n  <h2>See systemjs.config.js implementation for UMD vs module loading</h2>\n   <a routerLink=\"/temp\">Dashboard</a>\n  ",
+        styles: [__webpack_require__(190)],
+        providers: [__WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */], __WEBPACK_IMPORTED_MODULE_1_angular2_modal__["g" /* Overlay */]]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */]) === "function" && _a || Object])
+], HomeComponent);
+
+var _a;
+//# sourceMappingURL=home.component.js.map
+
+/***/ }),
+
+/***/ 74:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular2_modal__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__ = __webpack_require__(29);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TempComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var TempComponent = (function () {
+    function TempComponent(modal) {
+        this.modal = modal;
+        this.title = "App works !";
+    }
+    TempComponent.prototype.ngOnInit = function () {
+    };
+    TempComponent.prototype.onClick = function () {
+        this.modal.alert()
+            .size('lg')
+            .showClose(false)
+            .title('A simple Alert style modal window')
+            .body("\n            <h4>Alert is a classic (title/body/footer) 1 button modal window that \n            does not block.</h4>\n            <b>Configuration:</b>\n            <ul>\n                <li>Non blocking (click anywhere outside to dismiss)</li>\n                <li>Size large</li>\n                <li>Dismissed with default keyboard key (ESC)</li>\n                <li>Close wth button click</li>\n                <li>HTML content</li>\n            </ul>")
+            .open();
+    };
+    return TempComponent;
+}());
+TempComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
+        selector: 'app-temp',
+        template: __webpack_require__(192),
+        providers: [__WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */], __WEBPACK_IMPORTED_MODULE_1_angular2_modal__["g" /* Overlay */]]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */]) === "function" && _a || Object])
+], TempComponent);
+
+var _a;
+//# sourceMappingURL=temp.component.js.map
+
+/***/ }),
+
+/***/ 75:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElectronService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ElectronService = (function () {
+    function ElectronService() {
+        this.isElectron = function () {
+            return window && window.process && window.process.type;
+        };
+        //Conditional imports
+        if (this.isElectron()) {
+            this.ipcRenderer = window.require('electron').ipcRenderer;
+            this.childProcess = window.require('child_process');
+        }
+    }
+    return ElectronService;
+}());
+ElectronService = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __metadata("design:paramtypes", [])
+], ElectronService);
+
+//# sourceMappingURL=electron.service.js.map
+
+/***/ })
+
+},[226]);
+//# sourceMappingURL=main.bundle.js.map

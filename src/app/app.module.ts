@@ -11,19 +11,28 @@ import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { ElectronService } from './providers/electron.service';
+import { ModalModule } from 'angular2-modal';
+import { BootstrapModalModule } from 'angular2-modal/plugins/bootstrap';
+import { CustomModalContext, CustomModal } from './components/home/custom-modal-sample';
+import {TempComponent} from './components/temp/temp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    CustomModal,
+    TempComponent
   ],
   imports: [
     BrowserModule,
+     ModalModule.forRoot(),
+      BootstrapModalModule,
     FormsModule,
     HttpModule,
     AppRoutingModule
   ],
   providers: [ElectronService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [CustomModal]
 })
 export class AppModule { }
