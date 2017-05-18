@@ -23786,7 +23786,7 @@ var VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* Version */]
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modal_context__ = __webpack_require__(82);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__modal_context__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__modal_context__["b"]; });
 /* unused harmony reexport BSModalContextBuilder */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_container_component__ = __webpack_require__(47);
 /* unused harmony reexport BSModalContainer */
@@ -23806,7 +23806,7 @@ var VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* Version */]
 /* unused harmony reexport TwoButtonPresetBuilder */
 /* unused harmony reexport PromptPresetBuilder */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__modal__ = __webpack_require__(83);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_7__modal__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_7__modal__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__bootstrap_module__ = __webpack_require__(135);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_8__bootstrap_module__["a"]; });
 /* unused harmony reexport providers */

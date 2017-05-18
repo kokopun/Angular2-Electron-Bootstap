@@ -146,7 +146,8 @@ var _a;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angular2_modal__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_angular2_modal_plugins_bootstrap__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_home_custom_modal_sample__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_temp_temp_component__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_modal_custom_modal__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_temp_temp_component__ = __webpack_require__(74);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -154,6 +155,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -179,7 +181,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */],
             __WEBPACK_IMPORTED_MODULE_7__components_home_home_component__["a" /* HomeComponent */],
             __WEBPACK_IMPORTED_MODULE_12__components_home_custom_modal_sample__["a" /* CustomModal */],
-            __WEBPACK_IMPORTED_MODULE_13__components_temp_temp_component__["a" /* TempComponent */]
+            __WEBPACK_IMPORTED_MODULE_13__components_modal_custom_modal__["a" /* CustomModal2 */],
+            __WEBPACK_IMPORTED_MODULE_14__components_temp_temp_component__["a" /* TempComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["a" /* BrowserModule */],
@@ -191,7 +194,7 @@ AppModule = __decorate([
         ],
         providers: [__WEBPACK_IMPORTED_MODULE_9__providers_electron_service__["a" /* ElectronService */]],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */]],
-        entryComponents: [__WEBPACK_IMPORTED_MODULE_12__components_home_custom_modal_sample__["a" /* CustomModal */]]
+        entryComponents: [__WEBPACK_IMPORTED_MODULE_12__components_home_custom_modal_sample__["a" /* CustomModal */], __WEBPACK_IMPORTED_MODULE_13__components_modal_custom_modal__["a" /* CustomModal2 */]]
     })
 ], AppModule);
 
@@ -260,7 +263,7 @@ module.exports = "<router-outlet></router-outlet>\n";
 /***/ 192:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>ok</h1>";
+module.exports = "<span defaultOverlayTarget (onload)=\"openCustom()\"></span>\n<h1>ok</h1>\n  <button (click)=\"openCustom()\">Custom Modal</button>";
 
 /***/ }),
 
@@ -269,6 +272,83 @@ module.exports = "<h1>ok</h1>";
 
 module.exports = __webpack_require__(112);
 
+
+/***/ }),
+
+/***/ 229:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular2_modal__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__ = __webpack_require__(29);
+/* unused harmony export CustomModalContext2 */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomModal2; });
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var CustomModalContext2 = (function (_super) {
+    __extends(CustomModalContext2, _super);
+    function CustomModalContext2() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return CustomModalContext2;
+}(__WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* BSModalContext */]));
+
+/**
+ * A Sample of how simple it is to create a new window, with its own injects.
+ */
+var CustomModal2 = (function () {
+    function CustomModal2(dialog) {
+        this.dialog = dialog;
+        this.context = dialog.context;
+        this.wrongAnswer = true;
+        dialog.setCloseGuard(this);
+    }
+    CustomModal2.prototype.onKeyUp = function (value) {
+        this.wrongAnswer = value != 5;
+        this.dialog.close();
+    };
+    CustomModal2.prototype.beforeDismiss = function () {
+        return true;
+    };
+    CustomModal2.prototype.beforeClose = function () {
+        return this.wrongAnswer;
+    };
+    return CustomModal2;
+}());
+CustomModal2 = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
+        selector: 'modal-content',
+        styles: ["\n        .custom-modal-container {\n            padding: 15px;\n        }\n\n        .custom-modal-header {\n            background-color: #219161;\n            color: #fff;\n            -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);\n            -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);\n            box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);\n            margin-top: -15px;\n            margin-bottom: 40px;\n        }\n    "],
+        //TODO: [ngClass] here on purpose, no real use, just to show how to workaround ng2 issue #4330.
+        // Remove when solved.
+        /* tslint:disable */ template: "\n        <div class=\"container-fluid custom-modal-container\">\n            <div class=\"row custom-modal-header\">\n                <div class=\"col-sm-12\">\n                    <h1>A Custom modal design</h1>\n                </div>\n            </div>\n            <div class=\"row\" >\n                <div class=\"col-xs-12\">\n                    <div class=\"jumbotron\">\n                        <h1>Do the math to quit:</h1>\n                        <p class=\"lead\">I received an injection of the number <strong>{{context.num1}}</strong> and the number <strong>{{context.num2}}</strong></p>\n                        <span>What is the sum?</span>\n                         <input class=\"form-control\" type=\"text\" #answer (keyup)=\"onKeyUp(answer.value)\" autofocus>\n                    </div>\n                </div>\n            </div>\n        </div>"
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_angular2_modal__["d" /* DialogRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_angular2_modal__["d" /* DialogRef */]) === "function" && _a || Object])
+], CustomModal2);
+
+var _a;
+//# sourceMappingURL=custom-modal.js.map
 
 /***/ }),
 
@@ -309,7 +389,7 @@ var CustomModalContext = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return CustomModalContext;
-}(__WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["c" /* BSModalContext */]));
+}(__WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* BSModalContext */]));
 
 /**
  * A Sample of how simple it is to create a new window, with its own injects.
@@ -387,7 +467,7 @@ var HomeComponent = (function () {
             .open();
     };
     HomeComponent.prototype.openCustom = function () {
-        return this.modal.open(__WEBPACK_IMPORTED_MODULE_3__custom_modal_sample__["a" /* CustomModal */], __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_angular2_modal__["n" /* overlayConfigFactory */])({ num1: 2, num2: 3 }, __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["c" /* BSModalContext */]));
+        return this.modal.open(__WEBPACK_IMPORTED_MODULE_3__custom_modal_sample__["a" /* CustomModal */], __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_angular2_modal__["n" /* overlayConfigFactory */])({ num1: 2, num2: 3 }, __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* BSModalContext */]));
     };
     return HomeComponent;
 }());
@@ -397,9 +477,9 @@ HomeComponent = __decorate([
         // templateUrl: './home.component.html',
         template: "\n  <span defaultOverlayTarget></span>\n  <h1>angular2-modal</h1>\n  <h2>Basic Modal sample</h2>\n  <button (click)=\"onClick()\">Alert</button>\n    <br>\n  <h2>Custom Modal example:</h2>\n  <button (click)=\"openCustom()\">Custom Modal</button>\n  <p>\n  <b>IMPORTANT:</b>\n  Since 'AdditionCalculateWindow' is never explicitly used (in a template)\n  we must tell angular about it by adding it to the <strong>entryComponents</strong> property in the module meta.\n  </p>\n  \n  <h2>See systemjs.config.js implementation for UMD vs module loading</h2>\n   <a routerLink=\"/temp\">Dashboard</a>\n  ",
         styles: [__webpack_require__(190)],
-        providers: [__WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */], __WEBPACK_IMPORTED_MODULE_1_angular2_modal__["g" /* Overlay */]]
+        providers: [__WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["c" /* Modal */], __WEBPACK_IMPORTED_MODULE_1_angular2_modal__["g" /* Overlay */]]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["c" /* Modal */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["c" /* Modal */]) === "function" && _a || Object])
 ], HomeComponent);
 
 var _a;
@@ -414,6 +494,7 @@ var _a;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular2_modal__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_custom_modal__ = __webpack_require__(229);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TempComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -427,20 +508,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var TempComponent = (function () {
     function TempComponent(modal) {
+        //this.modal.open(CustomModal2,  overlayConfigFactory({ num1: 2, num2: 3 }, BSModalContext));
         this.modal = modal;
         this.title = "App works !";
     }
     TempComponent.prototype.ngOnInit = function () {
+        this.openCustom();
     };
-    TempComponent.prototype.onClick = function () {
-        this.modal.alert()
-            .size('lg')
-            .showClose(false)
-            .title('A simple Alert style modal window')
-            .body("\n            <h4>Alert is a classic (title/body/footer) 1 button modal window that \n            does not block.</h4>\n            <b>Configuration:</b>\n            <ul>\n                <li>Non blocking (click anywhere outside to dismiss)</li>\n                <li>Size large</li>\n                <li>Dismissed with default keyboard key (ESC)</li>\n                <li>Close wth button click</li>\n                <li>HTML content</li>\n            </ul>")
-            .open();
+    TempComponent.prototype.openCustom = function () {
+        return this.modal.open(__WEBPACK_IMPORTED_MODULE_3__modal_custom_modal__["a" /* CustomModal2 */], __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_angular2_modal__["n" /* overlayConfigFactory */])({ num1: 2, num2: 3 }, __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* BSModalContext */]));
     };
     return TempComponent;
 }());
@@ -448,9 +527,9 @@ TempComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-temp',
         template: __webpack_require__(192),
-        providers: [__WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */], __WEBPACK_IMPORTED_MODULE_1_angular2_modal__["g" /* Overlay */]]
+        providers: [__WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["c" /* Modal */], __WEBPACK_IMPORTED_MODULE_1_angular2_modal__["g" /* Overlay */]]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["b" /* Modal */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["c" /* Modal */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angular2_modal_plugins_bootstrap__["c" /* Modal */]) === "function" && _a || Object])
 ], TempComponent);
 
 var _a;

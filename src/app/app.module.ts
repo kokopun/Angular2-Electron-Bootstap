@@ -14,6 +14,8 @@ import { ElectronService } from './providers/electron.service';
 import { ModalModule } from 'angular2-modal';
 import { BootstrapModalModule } from 'angular2-modal/plugins/bootstrap';
 import { CustomModalContext, CustomModal } from './components/home/custom-modal-sample';
+
+import { CustomModalContext2, CustomModal2 } from './components/modal/custom-modal';
 import {TempComponent} from './components/temp/temp.component';
 
 @NgModule({
@@ -21,6 +23,7 @@ import {TempComponent} from './components/temp/temp.component';
     AppComponent,
     HomeComponent,
     CustomModal,
+    CustomModal2,
     TempComponent
   ],
   imports: [
@@ -33,6 +36,6 @@ import {TempComponent} from './components/temp/temp.component';
   ],
   providers: [ElectronService],
   bootstrap: [AppComponent],
-  entryComponents: [CustomModal]
+  entryComponents: [CustomModal,CustomModal2]
 })
 export class AppModule { }
