@@ -7,7 +7,7 @@ try {
   // Module to create native browser window.
   const { BrowserWindow } = electron;
 
-  let win, serve;
+  let win, serve,winJs;
   const args = process.argv.slice(1);
   serve = args.some(val => val === "--serve");
 
@@ -28,6 +28,8 @@ try {
       height: size.height
     });
 
+
+
     let url = serve ?
       'file://' + __dirname + '/dist/index.html' :
       'file://' + __dirname + '/index.html';
@@ -46,6 +48,33 @@ try {
       // in an array if your app supports multi windows, this is the time
       // when you should delete the corresponding element.
       win = null;
+    });
+
+       winJs = new BrowserWindow({
+      x: 0,
+      y: 0,
+      width: size.width,
+      height: size.height
+    });
+
+        let url2= serve ?
+      'file://' + __dirname + '/dist/index2.html' :
+      'file://' + __dirname + '/index2.html';
+
+    // and load the index.html of the app.
+    winJs.loadURL(url2);
+
+    // Open the DevTools.
+    if (serve) {
+      winJs.webContents.openDevTools();
+    }
+
+    // Emitted when the window is closed.
+    winJs.on('closed', () => {
+      // Dereference the window object, usually you would store window
+      // in an array if your app supports multi windows, this is the time
+      // when you should delete the corresponding element.
+      winJs= null;
     });
   }
 

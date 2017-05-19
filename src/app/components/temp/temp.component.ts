@@ -1,5 +1,5 @@
 import { Component, OnInit , ViewContainerRef, ViewEncapsulation} from '@angular/core';
-import { Overlay, overlayConfigFactory ,OverlayRenderer } from 'angular2-modal';
+import { Overlay, overlayConfigFactory  } from 'angular2-modal';
 import { Modal, BSModalContext } from 'angular2-modal/plugins/bootstrap';
 import { CustomModalContext2, CustomModal2 } from '../modal/custom-modal';
 
