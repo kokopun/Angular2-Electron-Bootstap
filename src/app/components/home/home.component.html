@@ -1,10 +1,15 @@
-<h1 class="title">
-  {{title}}
-</h1>
-<div width="100%" >
- <h2> test</h2>
-</div>
-<script>
-  console.log("test");
-
-  </script>
+ <span defaultOverlayTarget></span>
+  <h1>TDC App Setting NNNNNN</h1>
+  <h2>Basic Modal sample</h2>
+  <button (click)="onClick()">Alert</button>
+    <br>
+  <h2>Custom Modal example:</h2>
+  <button (click)="openCustom()">Custom Modal</button>
+  <p>
+  <b>IMPORTANT:</b>
+  Since 'AdditionCalculateWindow' is never explicitly used (in a template)
+  we must tell angular about it by adding it to the <strong>entryComponents</strong> property in the module meta.
+  </p>
+  
+  <h2>See systemjs.config.js implementation for UMD vs module loading</h2>
+   <a routerLink="/temp">Dashboard</a>

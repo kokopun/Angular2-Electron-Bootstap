@@ -20,6 +20,9 @@ try {
     let electronScreen = electron.screen;
     let size = electronScreen.getPrimaryDisplay().workAreaSize;
 
+
+ 
+
     // Create the browser window.
     win = new BrowserWindow({
       x: 0,
@@ -53,20 +56,20 @@ try {
        winJs = new BrowserWindow({
       x: 0,
       y: 0,
-      width: size.width,
-      height: size.height
+      width: 200,
+      height: 200
     });
 
-        let url2= serve ?
-      'file://' + __dirname + '/dist/index2.html' :
-      'file://' + __dirname + '/index2.html';
+       //    let url2= serve ?
+  //    'file://' + __dirname + '/dist/index2.html' :
+   let url2= 'file://' + __dirname + '/index2.html' ;
 
     // and load the index.html of the app.
     winJs.loadURL(url2);
 
     // Open the DevTools.
     if (serve) {
-      winJs.webContents.openDevTools();
+    //  winJs.webContents.openDevTools();
     }
 
     // Emitted when the window is closed.

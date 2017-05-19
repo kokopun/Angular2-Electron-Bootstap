@@ -6,24 +6,7 @@ import { CustomModalContext, CustomModal } from './custom-modal-sample';
 
 @Component({
   selector: 'app-home',
- // templateUrl: './home.component.html',
-   template: `
-  <span defaultOverlayTarget></span>
-  <h1>angular2-modal</h1>
-  <h2>Basic Modal sample</h2>
-  <button (click)="onClick()">Alert</button>
-    <br>
-  <h2>Custom Modal example:</h2>
-  <button (click)="openCustom()">Custom Modal</button>
-  <p>
-  <b>IMPORTANT:</b>
-  Since 'AdditionCalculateWindow' is never explicitly used (in a template)
-  we must tell angular about it by adding it to the <strong>entryComponents</strong> property in the module meta.
-  </p>
-  
-  <h2>See systemjs.config.js implementation for UMD vs module loading</h2>
-   <a routerLink="/temp">Dashboard</a>
-  `,
+  templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
    providers: [Modal,Overlay]
 })
@@ -39,10 +22,9 @@ export class HomeComponent implements OnInit {
     this.modal.alert()
         .size('lg')
         .showClose(false)
-        .title('A simple Alert style modal window')
+        .title('แจ้งเตือนข้อมูล')
         .body(`
-            <h4>Alert is a classic (title/body/footer) 1 button modal window that 
-            does not block.</h4>
+            <h4>ตัวอย่าง Modal แจ้งเตือนข้อมูล</h4>
             <b>Configuration:</b>
             <ul>
                 <li>Non blocking (click anywhere outside to dismiss)</li>
